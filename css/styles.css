@@ -48,7 +48,6 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   padding: 25px;
   text-align: center;
   text-transform: uppercase;
-  width: calc(50% - 80px);
 }
 /* ====================== Navigation ====================== */
 nav {
@@ -287,6 +286,9 @@ nav h1 a {
   }
   #restaurant-container, #reviews-container {
     width: 50%;
+  }
+  footer {
+    width: calc(50% - 80px);
   }
 }
 
