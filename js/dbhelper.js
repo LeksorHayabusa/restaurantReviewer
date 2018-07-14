@@ -9,7 +9,6 @@ class DBHelper {
     const helpController = this;
 
     navigator.serviceWorker.register('sw.js').then(function(registration) {
-      console.log(registration)
       if (!navigator.serviceWorker.controller) return;
 
       if (registration.installing) {
@@ -36,7 +35,6 @@ class DBHelper {
     let refreshing;
     navigator.serviceWorker.addEventListener('controllerchange', function() {
       if (refreshing) return;
-      alert('the page is updating')
       window.location.reload();
       refreshing = true;
     })
