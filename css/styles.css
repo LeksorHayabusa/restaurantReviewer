@@ -381,5 +381,7 @@ nav h1 a {
   #reviews-container {
     padding: 30px 15px 0 0;
   }
-
+  footer {
+    width: calc(50% - 80px);
+  }
 } 
