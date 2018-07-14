@@ -283,12 +283,10 @@ nav h1 a {
     bottom: 0;
     position: absolute;
     width: 50%;
+    width: calc(50% - 80px);
   }
   #restaurant-container, #reviews-container {
     width: 50%;
-  }
-  footer {
-    width: calc(50% - 80px);
   }
 }
 
