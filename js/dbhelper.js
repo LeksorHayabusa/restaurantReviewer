@@ -32,12 +32,12 @@ class DBHelper {
 
     })
 
-    let refreshing;
-    navigator.serviceWorker.addEventListener('controllerchange', function() {
-      if (refreshing) return;
-      window.location.reload();
-      refreshing = true;
-    })
+    //let refreshing;
+    //navigator.serviceWorker.addEventListener('controllerchange', function() {
+    //  if (refreshing) return;
+    //  window.location.reload();
+     // refreshing = true;
+    //})
   }
 
   static _updateReady(worker) {
