@@ -1,6 +1,6 @@
 const staticCacheName = 'restoCache_v4',
     filesToCache = [
-        '/',
+        '/restaurantReviewer',
         'js/main.js',
         'js/dbhelper.js',
         'js/restaurant_info.js',
