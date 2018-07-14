@@ -8,7 +8,7 @@ class DBHelper {
     if (!navigator.serviceWorker) return;
     const helpController = this;
 
-    navigator.serviceWorker.register('/restaurantReviewer/sw.js').then(function(registration) {
+    navigator.serviceWorker.register('sw.js').then(function(registration) {
       console.log(registration)
       if (!navigator.serviceWorker.controller) return;
 
